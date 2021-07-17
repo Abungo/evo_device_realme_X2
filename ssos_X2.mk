@@ -25,7 +25,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # Inherit ShapeShiftOS Official build stuff.
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 1080
+SSOS_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
 
 # Inherit ShapeShiftOS common properties.
