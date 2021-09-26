@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc 
+    init.qcom.rc \
+    init.devicesetting.rc
 
 PRODUCT_PACKAGES += \
     fstab.qcom
@@ -85,10 +86,9 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    RealmeProximityHelper 
-    
-# RealmeParts
-$(call inherit-product, device/realme/X2/RealmeParts/parts.mk)    
+    devicesettings \
+    RealmeProximityHelper \
+    RealmeDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
