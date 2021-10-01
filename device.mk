@@ -202,12 +202,18 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+<<<<<<< features
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+=======
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    RealmeX2WifiOverlay
+>>>>>>> ce153f0 X2: Switch to AOSP WFD
 
 # Lights
 PRODUCT_PACKAGES += \
