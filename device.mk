@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
+# FOD Animation
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0_system \
