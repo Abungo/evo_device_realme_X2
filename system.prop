@@ -13,6 +13,59 @@ ro.com.google.ime.kb_pad_port_l=7
 ro.com.google.ime.kb_pad_port_r=7
 ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
+# Camera
+persist.vendor.camera.light_ae.enable=1
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+ro.camera.hfr.enable=1
+ro.camera.relight.enable=0
+ro.camera.attr.detect.enable=1
+ro.camera.temperature.limit=470
+
+# Charger
+ro.charger.enable_suspend=true
+
+# CNE
+persist.vendor.cne.feature=0
+persist.vendor.dpm.feature=0
+
+# Data modules
+persist.data.netmgrd.qos.enable=true
+persist.vendor.data.profile_update=true
+persist.vendor.data.mode=concurrent
+ro.vendor.use_data_netmgrd=true
+
+# Dex
+dalvik.vm.dex2oat64.enabled=true
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=verify
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+
+# Display post-processing
+debug.sf.hw=1
+debug.sf.latch_unsignaled=1
+debug.sf.disable_backpressure=1
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.protected_contents=true
+ro.vendor.display.ad=1
+ro.vendor.display.sensortype=2
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
+ro.surface_flinger.use_smart_90_for_video=true
+ro.surface_flinger.set_display_power_timer_ms=10000
+ro.surface_flinger.set_touch_timer_ms=5000
+ro.surface_flinger.set_idle_timer_ms=9000
+
+# Google keyboard
+ro.com.google.ime.height_ratio=1
+
+# GBoard Spacing
 ro.com.google.ime.kb_pad_port_b=1
 # Graphics
 dev.pm.dyn_samplingrate=1
