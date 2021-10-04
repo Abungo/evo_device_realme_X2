@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
     RealmeProximityHelper \
     RealmeDoze
 
+# DotKiller
+PRODUCT_PACKAGES += \
+    DotKiller
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.x2 \
