@@ -16,4 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_X2.mk
-2.mk
