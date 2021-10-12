@@ -26,4 +26,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 # Inherit ShapeShiftOS Official build stuff.
 
 # Inherit ShapeShiftOS common properties.
-operties.
