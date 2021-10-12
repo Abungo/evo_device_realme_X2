@@ -7,10 +7,10 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_X2
+PRODUCT_NAME := aosp_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
@@ -26,3 +26,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 # Inherit ShapeShiftOS Official build stuff.
 
 # Inherit ShapeShiftOS common properties.
+operties.
