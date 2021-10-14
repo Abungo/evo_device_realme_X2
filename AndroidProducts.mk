@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
-2.mk
+    $(LOCAL_DIR)/octavi_X2.mk
