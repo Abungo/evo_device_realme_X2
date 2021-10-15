@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_X2.mk
+    $(LOCAL_DIR)/arrow_X2.mk
+
