@@ -29,4 +29,3 @@ E := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
 PRODUCT_MANUFACTURER := realme
- := realme
