@@ -20,7 +20,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_X2
+PRODUCT_NAME := arrow_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
